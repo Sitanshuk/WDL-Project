@@ -1,47 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Handyman | FAQ</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
-<script src="js/jquery-1.6.3.min.js"></script>
-<script src="js/cufon-yui.js"></script>
-<script src="js/cufon-replace.js"></script>
-<script src="js/NewsGoth_BT_400.font.js"></script>
-<script src="js/FF-cash.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/easyTooltip.js"></script>
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
-<![endif]-->
-</head>
-<body id="page3">
-<div class="extra">
-  <div class="main">
-    <!--==============================header=================================-->
-    <header>
-      <div class="indent">
-        <div class="row-top">
-          <div class="wrapper">
-            <h1><a href="index.html">Handyman</a></h1>
-            <strong class="support">+1 959-456-7856</strong> </div>
-        </div>
-        <nav>
-          <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a class="active" href="faq.html">FAQ</a></li>
-            <li><a href="prices.html">Prices</a></li>
-            <li><a href="staff.html">Our Staff</a></li>
-            <li class="last"><a href="contacts.html">Contacts</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<?php 
+include("header.php")
+?>
+</header>
     <!--==============================content================================-->
     <section id="content">
       <div class="wrapper">
@@ -80,17 +40,6 @@
   </div>
 </div>
 <!--==============================footer=================================-->
-<footer>
-  <div class="main">
-    <div class="footer-bg">
-      <p class="prev-indent-bot">Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved | Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></p>
-      <ul class="list-services">
-        <li><a class="tooltips" href="#"></a></li>
-        <li class="item-1"><a class="tooltips" href="#"></a></li>
-        <li class="item-2"><a class="tooltips" href="#"></a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
-</body>
-</html>
+<?php 
+include('footer.php');
+?>

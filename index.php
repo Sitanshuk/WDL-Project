@@ -1,51 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Handyman</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
-<script src="js/jquery-1.6.3.min.js"></script>
-<script src="js/cufon-yui.js"></script>
-<script src="js/cufon-replace.js"></script>
-<script src="js/NewsGoth_BT_400.font.js"></script>
-<script src="js/FF-cash.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/tms-0.3.js"></script>
-<script src="js/tms_presets.js"></script>
-<script src="js/easyTooltip.js"></script>
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
-<![endif]-->
-</head>
-<body id="page1">
-<div class="extra">
-  <div class="main">
-    <!--==============================header=================================-->
-    <header>
-      <div class="indent">
-        <div class="row-top">
-          <div class="wrapper">
-            <h1><a href="index.html">Handyman</a></h1>
-            <h2 class="login"><a href="login.php">Login</a></h3>
-            <strong class="support">+91 9892010101</strong> </div>
-        </div>
-        <nav>
-          <ul class="menu">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="prices.html">Prices</a></li>
-            <li><a href="staff.html">Our Staff</a></li>
-            <li class="last"><a href="contacts.html">Contacts</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="wrapper">
+<?php 
+include("header.php")
+?>
+<div class="wrapper">
         <div class="slider">
           <ul class="items">
             <li><img src="images/slider-img1.jpg" alt=""></li>
@@ -60,15 +16,15 @@
     </header>
     <!--==============================booking================================-->
     <aside>
-      <form action="" method="post" id="">
+      <form method="POST" action="test.php">
         <div class="options">
           <div class="order">
             <h2 class="steps">Step1: Select City</h2>
-            <select>  
+            <select name="city">  
               <option value="">Select City</option>
-              <option value="">Mumbai</option>
-              <option value="">Pune</option>
-              <option value="">Thane</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Pune">Pune</option>
+              <option value="Thane">Thane</option>
             </select>
             <div class="step2">
                <h2 class="steps">Step2: Select Your Service</h2>
@@ -141,70 +97,113 @@
             <div>
               <h2 class="steps">Step3: Book Your Service</h2>
               <input class="" placeholder="Enter Mobile" style="width:20%; margin-left:10px; display:inline-block;" type="text" name="mobile" required="" id="login_mobile" value="" maxlength="10" pattern="[789][0-9]{9}">
-              <button type="submit">Book</button>
+              <button type="submit" value="Send">Book</button>
+             
             </div>
+          </form>
           </div>
         </div>
-      </form>
+    
     </aside>
-    <!--==============================aside================================-->
-    <aside>
-      <div class="wrapper">
-        <div class="column-1">
-          <div class="box">
-            <div class="aligncenter">
-              <h4>Electrical Services</h4>
+
+<!----------------------------------------------------------------------->
+<article>
+          <div class="indent-left">
+            
+            <div class="wrapper prev-indent-bot">
+              <div class="extra-wrap">
+                <h3 class="prev-indent-bot"><center>Our Services</h3></center>
+                <hr width=30%>
+                <h6 class="prev-indent-bot"><center>We love living in a home which well maintained left, right and center. <br>Use our services to keep your home in shape, 24 x7. </center></h6></div>
             </div>
-            <div class="box-bg maxheight">
-              <div class="padding">
-                <h6 class="color-1">Sed ut perspiciatis unde omnis</h6>
-                <p>Linior voluptatm accusantium doloremque laudantium totarem aperiam.</p>
-              </div>
-              <div class="aligncenter"> <a class="button" href="#">More Details</a> </div>
+            
             </div>
-          </div>
+        </article>
+
+  <div class="options">
+    <div class="col1">
+      <div class="headerbox" >
+        <div class="aligncenter">
+          <h4>Plumber</h4>
+		 </div>
+          <div class="footerbox" id="Plumber">
+            <div class="pad">
+              <h6 class="color-4">Taps, Tanks, Shower, Sanitaryware and more</h6>
+                <a class="button" href="services.php?service=plumbing">More Details</a> 
+            </div>
+          
         </div>
-        <div class="column-1">
-          <div class="box">
-            <div class="aligncenter">
-              <h4>Plumbing Services</h4>
-            </div>
-            <div class="box-bg maxheight">
-              <div class="padding">
-                <h6 class="color-1">Quasi architecto beatae vitae</h6>
-                <p>Nemenim ipsam voluptatem quia voluptas aspernatur odit aut fugit.</p>
-              </div>
-              <div class="aligncenter"> <a class="button" href="#">More Details</a> </div>
-            </div>
-          </div>
-        </div>
-        <div class="column-2">
-          <div class="box">
-            <div class="aligncenter">
-              <h4>Welding Services</h4>
-            </div>
-            <div class="box-bg maxheight">
-              <div class="padding">
-                <h6 class="color-1">Sed quia consequuntur magni</h6>
-                <p>Doloresqui ratione voluptatem sequi neunt Neque porro quisquam dolorem.</p>
-              </div>
-              <div class="aligncenter"> <a class="button" href="#">More Details</a> </div>
-            </div>
+    </div>
+  
+	  <div class="col2">
+		<div class="headerbox" >
+		  <div class="aligncenter">
+			<h4>Electrician</h4>
+		  
+			<div class="footerbox" id="Electrician">
+				<div class="pad">
+					<h6 class="color-4">Fans, Lights, Refrigerator and more</h6>
+					<a class="button" href="services.php?service=electrician">More Details</a> 
+				</div>
+			</div>
+		</div>
+		</div>
+	 
+  
+  <div class="col3">
+    <div class="headerbox" >
+      <div class="aligncenter">
+        <h4>Carpenter</h4>
+        <div class="footerbox" id="Carpenter">
+          <div class="pad">
+            <h6 class="color-4">Doors, Windows, Furniture and more</h6>
+            <a class="button" href="services.php?service=carpentry">More Details</a> 
           </div>
         </div>
       </div>
-    </aside>
+	</div>
+	<div class="col4">
+	<div class="headerbox" >
+	  <div class="aligncenter">
+		<h4>AC & Refrigerator</h4>        
+		<div class="footerbox" id="ac">
+		  <div class="pad">
+			<h6 class="color-4">AC Installation, Servicing, Gas Filling and more</h6>    
+			<a class="button" href="services.php?service=acrefg">More Details</a>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	</div>
+  </div>
+  </div>
+  </div>
+  </div>
+<!----------------------------------------------------------------------------------->
+
+
+
+
+
+
+
     <!--==============================content================================-->
     <section id="content">
       <div class="wrapper">
         <article class="col-1">
           <div class="indent-left">
-            <h2>Welcome!</h2>
-            <h6 class="prev-indent-bot">Handyman is one of free website templates created by TemplateMonster.com</h6>
-            <p class="prev-indent-bot">This website template is optimized for 1280X1024 screen resolution. It is also XHTML &amp; CSS valid. Handyman Template goes with two packages – with PSD source files and without them. PSD<br>
-              source files are available for free for the registered members of Templates.com. The basic pack<br>
-              age (without PSD source) is available for anyone without registration.</p>
-            This website template has several pages: <a class="color-2" href="index.html">Home Page</a>, <a class="color-2" href="services.html">Services</a>, <a class="color-2" href="faq.html">FAQ</a>, <a class="color-2" href="prices.html">Prices</a>, <a class="color-2" href="staff.html">Our Staff</a>, <a class="color-2" href="contacts.html">Contacts</a> (note that contact us form – doesn’t work). </div>
+
+          <icon scr="">
+          <h2>High Quality & Trusted Professionals</h2>
+          <p>We provide only verified, background checked and high quality professionals</p>
+
+          <h2>Matched to Your Needs</h2>
+          <p>We match you with the right professionals with the right budget</p>
+
+          <h2>Hassle Free Service Delivery</h2>
+          <p>Super convenient, guaranteed service from booking to delivery</p>
+
+          </div>
         </article>
         <article class="col-2">
           <h3>Testimonials</h3>
@@ -231,33 +230,6 @@
   </div>
 </div>
 <!--==============================footer=================================-->
-<footer>
-  <div class="main">
-    <div class="footer-bg">
-      <p class="prev-indent-bot">Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved | Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></p>
-      <ul class="list-services">
-        <li><a class="tooltips" href="#"></a></li>
-        <li class="item-1"><a class="tooltips" href="#"></a></li>
-        <li class="item-2"><a class="tooltips" href="#"></a></li>
-      </ul>
-    </div>
-  </div>
-</footer>
-<script>Cufon.now();</script>
-<script>
-$(window).load(function () {
-    $('.slider')._TMS({
-        duration: 800,
-        easing: 'easeOutQuart',
-        preset: 'simpleFade',
-        slideshow: 7000,
-        banners: false,
-        pauseOnHover: true,
-        waitBannerAnimation: false,
-        prevBu: '.prev',
-        nextBu: '.next'
-    });
-});
-</script>
-</body>
-</html>
+<?php 
+include('footer.php');
+?>
