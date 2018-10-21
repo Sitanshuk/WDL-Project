@@ -4,15 +4,13 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Message: $message";
-$recipient = "empoweringhandymen@gmail.com";
-$pwd = "nssva123";
+$recipient = "sitanshu.kushwaha@live.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 //mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 //echo "Thank You!";
 ?>
 <?php
-//date_default_timezone_set('Etc/UTC');
 require("PHPMailer/class.PHPMailer.php");
 
 $mail = new PHPMailer();
@@ -21,21 +19,26 @@ $mail->IsSMTP();                                      // set mailer to use SMTP
 $mail->Host = "smtp.gmail.com";  // specify main and backup server
 $mail->SMTPAuth = true;     // turn on SMTP authentication
 $mail->SMTPDebug = 2;
-//$mail->Debugoutput = 'html';
-$mail->Username = $recipient;  // SMTP username
-$mail->Password = $pwd; // SMTP password
+$mail->Username = "empoweringhandymen@gmail.com";  // SMTP username
+$mail->Password = 'nssva123'; // SMTP password
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
 
 
-$mail->From = $recipient;
-$mail->FromName = "Handymen.co.nf";
-$mail->AddAddress("sitanshu.kushwaha@live.com", "Sitanshu");
-$mail->AddAddress("nishuladhe@gmail.com", "Nisha");
-$mail->AddAddress("vinitmasrani@gmail.com", "Vinit");
+$mail->From = "empoweringhandymen@gmail.com";
+$mail->FromName = "Sitanshu";
+$mail->AddAddress("sitanshu.kushwaha@live.com", "Josh Adams");
+//                 // name is optional
+$mail->AddReplyTo("sitanshu.kushwaha@live.com", "Information");
+
+//$mail->WordWrap = 50;                                 // set word wrap to 50 characters
+//$mail->AddAttachment("/var/tmp/file.tar.gz");         // add attachments
+//$mail->AddAttachment("/tmp/image.jpg", "new.jpg");    // optional name
+//$mail->IsHTML(true);                                  // set email format to HTML
+
 $mail->Subject = $subject;
-$mail->Body    = $formcontent;
-$mail->AltBody = "we have been contacted by $email";
+$mail->Body    = "This is the HTML message body in bold!";
+$mail->AltBody = "This is the body in plain text for non-HTML mail clients";
 
 if(!$mail->Send())
 {
@@ -45,6 +48,6 @@ if(!$mail->Send())
    exit;
 }
 
-echo "Thankyou for reaching out, We have received your mail!";
+echo "Message has been sent";
 ?>
 

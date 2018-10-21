@@ -28,7 +28,7 @@ include("header.php")
                 <div class="order">
                     <h2 class="steps" style="text-align: center">Step1: Select City</h2>
                     <div style="margin: 5px auto 0px auto;width: 200px;">
-                        <select name="city" style="width: 100%;padding: 5px;" required>
+                        <select name="city" style="width: 100%;padding: 5px;">
                             <option value="">Select City</option>
                             <option value="Mumbai">Mumbai</option>
                             <option value="Pune">Pune</option>
@@ -117,7 +117,7 @@ include("header.php")
                             <h2 class="steps" style="padding-bottom: 5px;">Step3: Enter Your Contact Number</h2>
                             <input class="" placeholder="Enter Contact Number"
                                    style="padding:5px;width:20%; margin-left:10px; display:inline-block;" type="text" name="mobile"
-                                   required id="login_mobile" value="" maxlength="10" pattern="[789][0-9]{9}">
+                                   required="" id="login_mobile" value="" maxlength="10" pattern="[789][0-9]{9}">
                             <button type="submit" value="Send" style="padding:5px;">Book</button>
 
                         </div>

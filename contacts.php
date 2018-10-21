@@ -11,23 +11,21 @@ include("header.php")
             <form id="contact-form" action="mail.php" method="post" >
               <fieldset>
                 <label><span class="text-form">Full Name:</span>
-                  <input type="text" name="name" required>
+                  <input type="text" name="name">
                 </label>
                 <label><span class="text-form">E-mail:</span>
-                  <input type="text" name="email" required>
+                  <input type="text" name="email">
                 </label>
                 <label><span class="text-form">Telephone:</span>
-                  <input type="text" name="telephone" required>
+                  <input type="text" name="telephone">
                 </label>
                 <div class="wrapper">
                   <div class="text-form">Message:</div>
                   <div class="extra-wrap">
-                    <textarea name="message" required></textarea>
+                    <textarea name="message"></textarea>
                   </div>
                 </div>
-                <div style="padding: 5vh 0 0 6vw">
-                <input type="submit" name="submit" value="SEND">
-                </div>
+                <input type="submit" name="submit">
               <!--  <div class="buttons"> <a class="button-2" href="#">Clear</a> <a class="button-2" href="#">Send</a> </div>-->
               </fieldset>
             </form>
