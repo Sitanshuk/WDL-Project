@@ -47,7 +47,7 @@ CloseCon($conn);
             <li><a class="active" href="index.php">Home</a></li>
             <li><a href="services.php">Services</a></li>
             <li><a href="orders.php">Orders</a></li>
-            <li><a href="test.php">login</a></li>
+            <li><a href="auth/Home.php">login</a></li>
             <li><a href="staff.php">Staff</a></li>
             <li class="last"><a href="contacts.php">Contact Us</a></li>
           </ul>

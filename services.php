@@ -43,10 +43,10 @@ echo "
             <div class=\"box-bg maxheight\">
               <div class=\"padding\">
                 <figure class=\"p2\"><img src=\"images/page2-img2.jpg\" alt=\"\"></figure>
-                <h6 class=\"color-1\">Sed ut perspiciatis unde omnis</h6>
-                <p style='min-height: 75px;'>Linior voluptatm accusantium doloremque laudantium totarem aperiam.</p>
+                <h6 class=\"color-1\"></h6>
+                <p style='min-height: 75px;'></p>
               </div>
-              <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
+              <div class=\"aligncenter\"> <a class=\"button\" href=\"services.php?service=electrician\">More Details</a> </div>
             </div>
           </div>
         </div>
@@ -58,40 +58,40 @@ echo "
             <div class=\"box-bg maxheight\">
               <div class=\"padding\">
                 <figure class=\"p2\"><img src=\"images/page2-img3.jpg\" alt=\"\"></figure>
-                <h6 class=\"color-1\">Quasi architecto beatae vitae</h6>
-                <p style='min-height: 75px;'>Nemenim ipsam voluptatem quia voluptas aspernatur odit aut fugit.</p>
+                <h6 class=\"color-1\"></h6>
+                <p style='min-height: 75px;'></p>
               </div>
-              <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
+              <div class=\"aligncenter\"> <a class=\"button\" href=\"services.php?service=plumbing\">More Details</a> </div>
             </div>
           </div>
         </div>
         <div class=\"column-1\">
           <div class=\"box\">
             <div class=\"aligncenter\">
-              <h4>Welding Services</h4>
+              <h4>Carpentry Services</h4>
             </div>
             <div class=\"box-bg maxheight\">
               <div class=\"padding\">
                 <figure class=\"p2\"><img src=\"images/page2-img4.jpg\" alt=\"\"></figure>
-                <h6 class=\"color-1\">Sed quia consequuntur magni</h6>
-                <p style='min-height: 75px;'>Doloresqui ratione voluptatem sequi neunt Neque porro quisquam dolorem.</p>
+                <h6 class=\"color-1\"></h6>
+                <p style='min-height: 75px;'></p>
               </div>
-              <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
+              <div class=\"aligncenter\"> <a class=\"button\" href=\"services.php?service=carpentry\">More Details</a> </div>
             </div>
           </div>
         </div>
         <div class=\"column-1\">
           <div class=\"box\">
             <div class=\"aligncenter\">
-              <h4>Welding Services</h4>
+              <h4>AC & Fridge Services</h4>
             </div>
             <div class=\"box-bg maxheight\">
               <div class=\"padding\">
-                <figure class=\"p2\"><img src=\"images/page2-img4.jpg\" alt=\"\"></figure>
-                <h6 class=\"color-1\">Sed quia consequuntur magni</h6>
-                <p style='min-height: 75px;'>Doloresqui ratione voluptatem sequi neunt Neque porro quisquam dolorem.</p>
+                <figure class=\"p2\"><img src=\"images/page2-img5.jpg\" alt=\"\"></figure>
+                <h6 class=\"color-1\"></h6>
+                <p style='min-height: 75px;'></p>
               </div>
-              <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
+              <div class=\"aligncenter\"> <a class=\"button\" href=\"services.php?service=acrefg\">More Details</a> </div>
             </div>
           </div>
         </div>
