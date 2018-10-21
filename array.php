@@ -51,4 +51,88 @@
   );
 
 
+  $staff = array(
+    "plumber" => array(
+          'plum1' => array(
+            'name' => 'Rajesh',
+            'about' => "Plumber",
+            'photo' => "images/rajesh.jpg",
+            'col' => "column-2",
+          ), 
+          'plum2' => array(
+            'name' => 'Ramesh',
+            'about' => "Plumber",
+            'photo' => "images/ramesh.jpg",
+            'col' => "column-2",
+          ),
+           'plum3' => array(
+            'name' => 'Suresh',
+            'about' => "Plumber",
+            'photo' => "images/suresh.jpg",
+            'col' => "column-2",
+          ),
+      ),
+    "electrician" => array(
+          'elec1' => array(
+            'name' => 'HiraLal',
+            'about' => "Electrician",
+            'photo' => "images/hiralal.jpg",
+            'col' => "column-2",
+          ), 
+          'elec2' => array(
+            'name' => 'John',
+            'about' => "Electrician",
+            'photo' => "images/john.jpg",
+            'col' => "column-2",
+          ),
+           'elec3' => array(
+            'name' => 'Raju',
+            'about' => "Electrician",
+            'photo' => "images/raju.jpg",
+            'col' => "column-2",
+          ),
+      ),
+    "carpenter" => array(
+          'plum1' => array(
+            'name' => 'RajMohan',
+            'about' => "Carpenter",
+            'photo' => "images/rajmohan.jpg",
+            'col' => "column-2",
+          ), 
+          'plum2' => array(
+            'name' => 'Andrews',
+            'about' => "Carpenter",
+            'photo' => "images/andrews.jpg",
+            'col' => "column-2",
+          ),
+           'plum3' => array(
+            'name' => 'Jayesh',
+            'about' => "Carpenter",
+            'photo' => "images/Jayesh.jpg",
+            'col' => "column-2",
+
+          ),
+      ),
+    "acrepair" => array(
+          'plum1' => array(
+            'name' => 'Steve',
+            'about' => "Ac & Refrigerator repairs",
+            'photo' => "images/steve.jpg",
+            'col' => "column-2",
+          ), 
+          'plum2' => array(
+            'name' => 'Rajpal',
+            'about' => "Ac & Refrigerator repairs",
+            'photo' => "images/chotu.jpg",
+            'col' => "column-2",
+          ),
+           'plum3' => array(
+            'name' => 'Rajvir',
+            'about' => "Ac & Refrigerator repairs",
+            'photo' => "images/rajvir.jpg",
+            'col' => "column-2",
+          ),
+      ),
+  );
+
 ?>

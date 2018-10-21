@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" media="screen">
 <script src="js/jquery-1.6.3.min.js"></script>
 <script src="js/cufon-yui.js"></script>
 <script src="js/cufon-replace.js"></script>
@@ -45,10 +46,10 @@ CloseCon($conn);
           <ul class="menu">
             <li><a class="active" href="index.php">Home</a></li>
             <li><a href="services.php">Services</a></li>
-            <li><a href="faq.php">FAQ</a></li>
-            <li><a href="prices.php">Prices</a></li>
-            <li><a href="staff.php">Our Staff</a></li>
-            <li class="last"><a href="contacts.php">Contacts</a></li>
+            <li><a href="orders.php">Orders</a></li>
+            <li><a href="test.php">login</a></li>
+            <li><a href="staff.php">Staff</a></li>
+            <li class="last"><a href="contacts.php">Contact Us</a></li>
           </ul>
         </nav>
       </div>

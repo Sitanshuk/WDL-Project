@@ -2,6 +2,7 @@
 include("array.php"); 
 include ('header.php');
 ?>
+
 </header>
 
 
@@ -43,7 +44,7 @@ echo "
               <div class=\"padding\">
                 <figure class=\"p2\"><img src=\"images/page2-img2.jpg\" alt=\"\"></figure>
                 <h6 class=\"color-1\">Sed ut perspiciatis unde omnis</h6>
-                <p>Linior voluptatm accusantium doloremque laudantium totarem aperiam.</p>
+                <p style='min-height: 75px;'>Linior voluptatm accusantium doloremque laudantium totarem aperiam.</p>
               </div>
               <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
             </div>
@@ -58,7 +59,7 @@ echo "
               <div class=\"padding\">
                 <figure class=\"p2\"><img src=\"images/page2-img3.jpg\" alt=\"\"></figure>
                 <h6 class=\"color-1\">Quasi architecto beatae vitae</h6>
-                <p>Nemenim ipsam voluptatem quia voluptas aspernatur odit aut fugit.</p>
+                <p style='min-height: 75px;'>Nemenim ipsam voluptatem quia voluptas aspernatur odit aut fugit.</p>
               </div>
               <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
             </div>
@@ -73,13 +74,13 @@ echo "
               <div class=\"padding\">
                 <figure class=\"p2\"><img src=\"images/page2-img4.jpg\" alt=\"\"></figure>
                 <h6 class=\"color-1\">Sed quia consequuntur magni</h6>
-                <p>Doloresqui ratione voluptatem sequi neunt Neque porro quisquam dolorem.</p>
+                <p style='min-height: 75px;'>Doloresqui ratione voluptatem sequi neunt Neque porro quisquam dolorem.</p>
               </div>
               <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
             </div>
           </div>
         </div>
-        <div class=\"column-2\">
+        <div class=\"column-1\">
           <div class=\"box\">
             <div class=\"aligncenter\">
               <h4>Welding Services</h4>
@@ -88,7 +89,7 @@ echo "
               <div class=\"padding\">
                 <figure class=\"p2\"><img src=\"images/page2-img4.jpg\" alt=\"\"></figure>
                 <h6 class=\"color-1\">Sed quia consequuntur magni</h6>
-                <p>Doloresqui ratione voluptatem sequi neunt Neque porro quisquam dolorem.</p>
+                <p style='min-height: 75px;'>Doloresqui ratione voluptatem sequi neunt Neque porro quisquam dolorem.</p>
               </div>
               <div class=\"aligncenter\"> <a class=\"button\" href=\"\">More Details</a> </div>
             </div>

@@ -1,4 +1,8 @@
 /* index.html */
+/**{*/
+	/*box-sizing: border-box;*/
+	/*-webkit-box-sizing: border-box;*/
+/*}*/
 #page1 .col-1 {
 	width:660px;
 	margin-right:65px
@@ -7,11 +11,26 @@
 	width:280px
 }
 #page1 .column-1 {
-	width:326px;
-	margin-right:21px
+	width:calc(25.5% - 21px);
+	/*width:326px;*/
+	margin-right:21px;
+	/*box-sizing: border-box;*/
+	/*-webkit-box-sizing: border-box;*/
 }
 #page1 .column-2 {
-	width:326px
+	width:calc(34% - 21px);
+	/*width:326px*/
+	margin-right:21px;
+}
+#page1 .column-1:last-child{
+	margin-right:0px
+}
+#page1 .column-2:nth-child(3n){
+	margin-right:0px
+}
+#page1 .column-1 .box .box-bg .padding figure img,
+#page1 .column-2 .box .box-bg .padding figure img{
+	width: 100%;
 }
 #page1 .indent {
 	padding:21px 0 20px
@@ -20,7 +39,8 @@
 	padding:10px 0 33px
 }
 #page1 .box .padding {
-	padding:18px 10px 0 30px
+	/*padding:18px 10px 0 30px*/
+	padding:18px 10px 0 10px
 }
 /* index-1.html */
 #page2 .col-1 {
